@@ -7,19 +7,18 @@
     <title>Cafe24 styleguide</title>
     <style>
         *{margin: 0; padding: 0;}
+        .bg{position: absolute; top: 0; left: 0; z-index: -999;}
+        body{background: #f4f4f4;}
         a{text-decoration: none; color: #000;}
         #wrap{width: 1200px;margin: 0 auto; position: relative;}
-        #wrap img{width: 100%; display: block;}
+        #wrap img{width: 100%; display: block; box-shadow: 2px 2px 10px #000;position: absolute; top: 150px; left: 0;}
         #wrap a .btn{color: #fff; font-size: 20px; position: absolute;top: 620px; right: -30px;text-transform: uppercase; font-weight: 600; padding: 10px; background: /* rgba(254,166,7,0.2) */orange;}
     </style>
-    <script>
-
-            alert('이미지를 클릭하면 해당 홈페이지로 이동합니다.');
-
-/* end */
-    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/cafe24.js"></script>
 </head>
 <body>
+    <div class="bg"><img src="images/cafe24_BG.jpg"></div>
     <div id="wrap">
         <a href="https://jinn2380.cafe24.com/">
         <img src="styleguide_img/cafe24_styleguide.jpg" alt="cafe24stlyeguide">
