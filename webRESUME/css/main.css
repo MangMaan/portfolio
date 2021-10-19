@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap {position: relative;}
+#header {width: 100%; position: relative; height: 480px; border-radius: 10% 0 10%; background: linear-gradient(40deg,#f4f4f4, tan); box-shadow: 5px 5px 30px rgba(0,0,0,0.2)}
+#header .bg1 .profile{width: 13.02083vw; height: 13.02083vw; border-radius: 50%; background: url(../img/profile_img.jpg) no-repeat center center; position: absolute; top:100px; left: 50%; transform: translateX(-50%); cursor: pointer;}
+#header .bg1 .work{position: absolute; top: 330px; left: 50%; transform: translateX(-50%);}
+#header .bg1 .work h2{font-size: 30px; font-weight: 600; color: #fff; text-shadow: 1px 1px 3px #000;}
+#header .bg1 .work .sns{display: flex; justify-content: space-between;background: #fff; margin-top: 20px;}
+#header .bg1 .work .sns li{font-size: 18px; text-transform: capitalize; font-weight: 600;}
+
+.resume img{width: 100%;}
