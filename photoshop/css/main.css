@@ -4,9 +4,9 @@
 .object_bg{background: #000;padding: 100px 0;}
 .object_wrap{width: 1600px; height: 600px; display: flex; justify-content: space-between; margin: 0 auto; background:transparent;}
 .object_wrap li{cursor: pointer;}
-.object_wrap li{margin-left: 20px;background: #777;width: calc(100%/4); position: relative;}
-.object_wrap .bg1{background: url(../img/li1.jpg) no-repeat center center; background-size: cover;}
-.object_wrap .bg1:hover{background: url(../img/li1-1.jpg) no-repeat center center; background-size: cover;}
+.object_wrap li{margin-left: 20px;background: #777;width: 25%; position: relative;}
+.object_wrap .bg1{background: url(../img/li1.jpg) no-repeat center center; background-size: cover; width: 25%;}
+.object_wrap .bg1:hover{background: url(../img/li1-1.jpg) no-repeat center center; background-size: cover; width: 25%;}
 .object_wrap .bg2{background: url(../img/li2_bg1-1.jpg) no-repeat center center; background-size: cover;}
 .object_wrap .bg2:hover{background: url(../img/li2_bg.jpg) no-repeat center center; background-size: cover;}
 .object_wrap .bg3{background: url(../img/li3gray.jpg) no-repeat center center; background-size: cover;}
