@@ -22,9 +22,13 @@ a{text-decoration: none; color: #000;}
 .img_wrap2 li dd a{font-size: 27px;margin-bottom: 1.5625vw; color: #fff; font-weight: 600; text-shadow: 1px 1px 2px #000;}
 .img_wrap2 li:hover dl dd a{color:  orange;}
 .img_wrap2 li:hover dl dt {color: #000; text-shadow: 1px 1px 2px #000;}
+.img_wrap2 li a img{margin-top: 20px;}
+.img_wrap2 li:hover .img_wrap2 li a img{background:url(../img/whitelogo.png) no-repeat center center;}
 @media all and (max-width:1200px) and (min-width:769px){
-    .img_bg dl dt{font-size: 20px;}
-    .img_bg dl dd a{font-size: 20px;}
+    .img_bg dl dt{font-size: 19px;}
+    .img_bg dl dd a{font-size: 18px;}
+    .img_wrap2 dl dt{font-size: 19px;}
+    .img_wrap2 dl dd a{font-size: 18px;}
 }
 
 @media all and (max-width: 768px){

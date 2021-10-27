@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carhartt styleguide</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        a{text-decoration: none;}
+        img{width: 100%;}
+        ul,li,ol{list-style: none;}
+        #wrap{width: 62.5vw;margin: 0 auto;}
+        #wrap .back{position: fixed; top: 20px; left:0; font-size: 50px;}
+        #wrap .next{position: fixed; top: 20px; right: 0; font-size: 50px;}
+        #wrap .blinkk{position: fixed; top: 120px; left: 0; font-size: 20px; font-weight: 600;}
+        .mobile{display: none;}
+        a{text-decoration: none; color: #000;} 
+        @media all and (max-width:1280px) and (min-width:769px){
+        #wrap .back{position: fixed; top: 20px; left:0; font-size: 40px;}
+        #wrap .next{position: fixed; top: 20px; right: 0; font-size: 40px;}
+        #wrap .blinkk{position: fixed; top: 80px; left: 0; font-size: 20px; font-weight: 600;}
+        .mobile{display: none;}
+        }
+        @media all and (max-width:768px){
+            #wrap .back{position: fixed; top: 20px; left:0; font-size: 20px;}
+            #wrap .next{position: fixed; top: 20px; right: 0; font-size: 20px;}
+            #wrap .blinkk{position: fixed; top:50px; left: 0; font-size: 16px; font-weight: 600;}
+            .mobile{display: block;} 
+        }
+        .blinkk{   
+        animation-duration: 1500ms;
+        animation-name: blink;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        }
+
+        @keyframes blink {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+        }
+    </style>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main2.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <img src="img/li6_styleguide.jpg" alt="detail page" class="detail">
+        <img src="img/li6_styleguide1.jpg" alt="styleguide" class="styleguide">
+        <p><a href="photoshop2.html"class="back">Back</a></p>
+        <p><a href="../webRESUME/resume.html"class='next'>Next</a></p>
+        <p class='blinkk'>이미지를<br class="mobile">클릭해주세요</p>
+    </div>
+</body>
+</html>

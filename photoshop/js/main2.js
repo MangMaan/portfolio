@@ -11,7 +11,16 @@ $(document).ready(function(){
 // })/* end */
 
 
-
+    $('.styleguide').hide();
+    $('.detail').click(function(){
+        $(this).hide();
+        $('.styleguide').fadeIn(1000);
+    })
+    $('.styleguide').click(function(){
+        $(this).hide();
+        $('.detail').fadeIn(1000);
+    })
+    
 
 
 
